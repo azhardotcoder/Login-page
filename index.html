@@ -7,7 +7,84 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn">
+
+                </div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <div class="social-icons">
+                <img src="./login-reg-img/fb.png">
+                <img src="./login-reg-img/tw.png">
+                <img src="./login-reg-img/gp.png">
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="password" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn" onclick="login()">Login</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="email" class="input-field" placeholder="Email Id" required>
+                <input type="password" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+                <button type="submit" class="submit-btn" onclick="register()" >Register</button>
+            </form>
+        </div>
+       
+    </div>
+    <footer
+style="
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-weight: 800;
+"
+>
+<p style="color: rgb(0, 0, 0); font-weight: bold">Made by Azhar</p>
+<div class="social-links" style="margin-top: 10px">
+  <a
+    href="https://github.com/azhardotcoder"
+    target="_blank"
+    style="
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: 800;
+    "
+    >Github</a
+  >
+  <a
+    href="https://twitter.com/azhardotcoder"
+    target="_blank"
+    style="
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: 800;
+    "
+    >X</a
+  >
+  <a
+    href="https://linkedin.com/azhardotcoder"
+    target="_blank"
+    style="
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: 800;
+    "
+    >LinkedIn</a
+  >
+</div>
+</footer>
 
     <script src="./script.js"></script>
 </body>
