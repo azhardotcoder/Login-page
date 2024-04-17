@@ -2,7 +2,9 @@ var x = document.getElementById("login");
 var y = document.getElementById("register");
 var z = document.getElementById("btn");
 
-// In the starting show only login page not both
+// Initially hide the register form
+y.style.left = "-400px";
+
 function login(){
     x.style.left = "50px";
     y.style.left = "450px";
@@ -13,8 +15,4 @@ function register(){
     x.style.left = "-400px";
     y.style.left = "50px";
     z.style.left = "110px";
-    
 }
-
-
-
